@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="" method="" id="sForm">
+            <section>
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" required>
+            </section>
+            <section>
+                <label for="surname">Apellidos</label>
+                <input type="text" id="surname" name="surname" required>
+            </section>
+            <section>
+                <label for="age">Edad</label>
+                <input type="number" id="age" name="age" min="18" required>
+            </section>
+            <section>
+                <label for="gender">Masculino</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="gender">Femenino</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="gender">Otro</label>
+                <input type="radio" id="other" name="gender" value="other" checked>
+            </section>
+            <section>
+                <label for="dniNumber">DNI</label>
+                <input type="text" id="" name="dniNumber" required>
+            </section>
+            <section>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </section>
+            <section>
+                <label for="description">Descripción</label>
+                <textarea name="description" id="description" cols="30" rows="10" required></textarea>
+            </section>
+            <section>
+                <label for="selectClass">Selección</label>
+                <select name="selectClass" id="selectClass" required>
+                    <option value="Wizard">Mago</option>
+                    <option value="Warrior" selected>Guerrero</option>
+                    <option value="Roge">Pícaro</option>
+                </select>
+            </section>
+            <input type="submit" name="send" value="enviar">
+        </form>
+
+        <script src="sForm1.js"></script>
+    </body>
+</html>
