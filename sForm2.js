@@ -34,13 +34,13 @@ function validaForm() {
     let name = document.getElementById("name");
     if( name == null || name.length == 0 || /^\s+$/.test(name) ) {
         alert("El campo de nombre no está correctamente rellenado")
-        return formularioCorrecto = false;
+        formularioCorrecto = false;
     }
 
     let surname = document.getElementById("surname");
     if( surname == null || surname.length == 0 || /^\s+$/.test(surname) ) {
         alert("El campo de apellido no está correctamente rellenado")
-        return formularioCorrecto = false;
+        formularioCorrecto = false;
     }
     
 
